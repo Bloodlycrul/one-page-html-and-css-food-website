@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.body{
+    width: 1270px;
+    margin: auto;
+    
+}
+
+.nav{
+    width: 1240px;
+    margin: auto;
+    padding-top: .6rem;
+    
+}
+
+.logo{
+    width: 80px;
+    height: 23px;
+    margin-top: .3rem;
+}
+
+.header-main{
+    list-style: none;
+    display: flex;
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+.header-list{
+    margin: auto;
+    padding: 0 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: .7rem;
+}
+
+.nav{
+    display: flex;
+}
+
+.search{
+    width: 329px;
+    height: 40px;
+    padding-left: 40px;
+    border-radius: 40px;
+    background-color: #f7f8f9;
+    border: none;
+}
+
+.search:focus-visible{
+    border: 1px solid red;
+}
+
+
+.location-svg{
+    display: flex;
+    margin-top: .2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.location-paragraph1{
+    display: contents;
+
+}
+
+.basket-svg{
+    margin: 0 1rem;
+    cursor: pointer;
+
+}
+
+.cityname{
+    border: .5 solid black!important;
+}
+
+.cityname-list{
+    padding: 1rem ;
+    list-style: none;
+    display: flex;
+    margin-top: 1.9rem;
+    border-top: 1px solid rgb(235, 237, 237);
+    box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px 0px;
+}
+
+.margin-left{
+    margin-left: 11.7rem;
+}
+
+.cityname-item{
+    padding-left: 3.9rem;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.main-heading{
+    padding-top: 32px;
+    color: #121313;
+    font-size: 42px;
+}
+.col-teal{
+    color: #008084;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-paragraph{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+    opacity: .6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cat{
+    margin-top: 2rem;
+    display: flex;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 200;
+    
+}
+
+.cat-heading{
+    padding-top: 5px;
+}
+
+.catagories-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.catogories-item{
+    background-color: rgba(222, 222, 222, 0.253);
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.catogories-itemleft{
+       margin-left: 1rem;
+}
+
+.cafeheading{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+   
+}
+
+.heading{
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+}
+
+.bold{
+    font-weight: 900;
+}
+.font-size{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.arrow-bold{
+    font-weight: bolder;
+}
+
+.cat-class{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagesection{
+    display: flex;
+}
+
+.firstimage{
+  width: 353px;  
+  height: 353px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.left-margin{
+    margin-left: 30px;
+}
+
+.left-margin1{
+    margin-left: 50px;
+}
+
+.promotion{
+    position: absolute;
+    top: 0;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.paddingleft{
+    margin-left: 30px;
+}
+
+.leftmore{
+    margin-left: 50px;
+}
+.textgrey{
+    color: gray;
+    opacity: .6;
+}
+
+.margin12{
+    margin-top: 10rem;
+}
